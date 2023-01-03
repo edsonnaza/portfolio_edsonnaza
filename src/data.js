@@ -19,8 +19,8 @@ export const projects = [
     title: "Infomed - Medical Record",
     subtitle: "React and Python",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
+      "The Infomed is a health records and medical practice management application, its features fully integrated electronic health records, practice management, scheduling, electronic billing, internationalization, patient scheduling, reports and more.",
+    image: "./infomed.gif",
     link: "https://reactbootcamp.com",
   },
   {
@@ -44,10 +44,10 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
+      "It's so gratefull and amazing work with him. A men who can help you anytime when you need it, does'nt matter the time or the day.",
     image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
+    name: "Joel Epping - Software Engenier at rappi company.",
+    company: "https://www.linkedin.com/company/rappi/",
   },
   {
     quote:
