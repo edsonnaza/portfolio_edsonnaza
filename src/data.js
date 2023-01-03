@@ -1,10 +1,10 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Smart Reception",
+    subtitle: "PHP/Laravel/VUE/Linux LAMP.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
+      "During the pandemic time, I developed a WebApp solution that allows customers to request service at the company's reception through the system. Whose main purpose was created to avoid direct contact with the secretary at the reception. With this solution, 90% of the proposed objective was achieved.",
+    image: "./smartreception2.gif",
     link: "https://reactbootcamp.com",
   },
   {
