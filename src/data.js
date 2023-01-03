@@ -7,6 +7,14 @@ export const projects = [
     image: "./smartreception2.gif",
     link: "https://reactbootcamp.com",
   },
+{
+     title: "Contacts",
+    subtitle: "PHP/Laravel/Linux LAMP.",
+    description:
+      "It is a simple but complete application to control customer contacts. Data that can be consumed by the sellers of the company, in addition to providing a process of orders indicating the status in three types, pending, accepted and rejected. The application was created in PHP, Laravel and Mysql. Linux LAMP server.",
+    image: "./Contacts.gif",
+    link: "https://reactbootcamp.com",
+  },
   {
     title: "React Tracks",
     subtitle: "React and Python",
