@@ -6,16 +6,14 @@ export default function About() {
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Hi, I'm Edson.
+            Hi, I'm Reed.
             <br className="hidden lg:inline-block" />I love to build amazing
             apps.
           </h1>
           <p className="mb-8 leading-relaxed">
-            I'm a full stack web developer, with more than 8 years of experience, designing and developing web app   
-          solutions for all kinds of clients like hospitals ERP, startup companies, ERP for agribusiness, and many 
-          others, using  PHP, Laravel, MySQL, Linux LAMP, JavaScript, Vue's, Amazon AWS. React, Docker and Node.js. 
-          
-            Finally, I'm very enthusiastic and innovative and competent to help as I can to the teamwork to get the goals.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
+            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
+            Laborum, voluptas natus?
           </p>
           <div className="flex justify-center">
             <a
