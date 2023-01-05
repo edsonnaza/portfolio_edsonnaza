@@ -5,7 +5,7 @@ export const projects = [
     description:
       "During the pandemic time, I developed a WebApp solution that allows customers to request service at the company's reception through the system. Whose main purpose was created to avoid direct contact with the secretary at the reception. With this solution, 90% of the proposed objective was achieved.",
     image: "./smartreception2.gif",
-    link: "https://reactbootcamp.com",
+    link: "#",
   },
 {
      title: "Contacts",
@@ -13,7 +13,7 @@ export const projects = [
     description:
       "It is a simple but complete application to control customer contacts. Data that can be consumed by the sellers of the company, in addition to providing a process of orders indicating the status in three types, pending, accepted and rejected. The application was created in PHP, Laravel and Mysql. Linux LAMP server.",
     image: "./Contacts.gif",
-    link: "https://reactbootcamp.com",
+    link: "#",
   },
   {
     title: "Infomed - Medical Record",
@@ -21,7 +21,7 @@ export const projects = [
     description:
       "The Infomed is a health records and medical practice management application, its features fully integrated electronic health records, practice management, scheduling, electronic billing, internationalization, patient scheduling, reports and more.",
     image: "./infomed.gif",
-    link: "https://reactbootcamp.com",
+    link: "#",
   },
   {
     title: "DevChat",
