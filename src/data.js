@@ -31,14 +31,14 @@ export const projects = [
     image: "./openEMR.gif",
     link: "https://demo.openemr.io/openemr/interface/login/login.php?site=default",
   },
- /* {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+  {
+    title: "Treelan",
+    subtitle: "PHP/MySQL/Ubuntu Server 12.04 LTS.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "#",
-  },*/
+      "It is a management tool for ophthalmology clinics that brings together the latest technology in the development of highly complex Web-based applications.",
+    image: "./treelan.gif",
+    link: "https://treelan.net/",
+  },
 ];
 
 export const testimonials = [
