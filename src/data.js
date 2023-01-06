@@ -67,4 +67,9 @@ export const skills = [
   "Bootstrap",
  "AdminLTE",
 "Docker",
+"CI/CD: GitHub-Netlify",
+"PHPUnit - TDD",
+"Desing Pattern",
+"SOLID Principles",
+
 ];
