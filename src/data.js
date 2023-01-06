@@ -5,7 +5,7 @@ export const projects = [
     description:
       "During the pandemic time, I developed a WebApp solution that allows customers to request service at the company's reception through the system. Whose main purpose was created to avoid direct contact with the secretary at the reception. With this solution, 90% of the proposed objective was achieved.",
     image: "./smartreception2.gif",
-    link: "#",
+    link: "https://github.com/edsonnaza/recep-v2",
   },
 {
      title: "Contacts",
@@ -16,29 +16,29 @@ export const projects = [
     link: "#",
   },
   {
-    title: "Infomed - Medical Record",
-    subtitle: "React and Python",
+    title: "Infomed -Integrated Medical Record",
+    subtitle: "PHP/LARAVEL/LINUX LAMP",
     description:
       "The Infomed is a health records and medical practice management application, its features fully integrated electronic health records, practice management, scheduling, electronic billing, internationalization, patient scheduling, reports and more.",
     image: "./infomed.gif",
     link: "#",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "OpenEMR",
+    subtitle: "PHP/MySQL/Ubuntu Server 22 LTS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "OpenEMR is the most popular open source electronic health records and medical practice management solution. OpenEMR's goal is a superior alternative to its proprietary counterparts with passionate volunteers and contributors dedicated to guarding OpenEMR's status as a free.",
+    image: "./openEMR.gif",
+    link: "https://demo.openemr.io/openemr/interface/login/login.php?site=default",
   },
-  {
+ /* {
     title: "Epic Todo App",
     subtitle: "React Hooks",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
-  },
+    link: "#",
+  },*/
 ];
 
 export const testimonials = [
@@ -64,5 +64,7 @@ export const skills = [
   "React",
   "Vue.js",
   "Node",
-  "Material UI",
+  "Bootstrap",
+ "AdminLTE",
+"Docker",
 ];
