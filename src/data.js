@@ -8,6 +8,14 @@ export const projects = [
     link: "https://github.com/edsonnaza/recep-v2",
   },
 {
+    title: "FaceTest",
+    subtitle: "PHP/Laravel/VUE",
+    description:
+      "Web Application to detect possible fraud when the examen online is running. The application modules can detect the face of the user in front of the screen through the webcam. When the test is done the system report the incidents with photos and descriptions.",
+    image: "./facetest.gif",
+    link: "https://www.youtube.com/watch?v=tJLdJn77g5U",
+  },
+{
      title: "Contacts",
     subtitle: "PHP/Laravel/Linux LAMP.",
     description:
