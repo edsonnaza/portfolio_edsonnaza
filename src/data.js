@@ -11,9 +11,17 @@ export const projects = [
     title: "FaceTest",
     subtitle: "PHP/Laravel/VUE",
     description:
-      "Web Application to detect possible fraud when the examen online is running. The application modules can detect the face of the user in front of the screen through the webcam. When the test is done the system report the incidents with photos and descriptions.",
+      "Web Application to detect possible fraud when the examen online is running. The application modules can detect the face of the user in front of the screen through the webcam. When the test is done the system report the incidents with photos and descriptions. This project I've built this as a freelancer. The files in GitHub are saved in a private repository.",
     image: "./facetest.gif",
     link: "https://www.youtube.com/watch?v=tJLdJn77g5U",
+  },
+{
+    title: "ShortURL",
+    subtitle: "PHP/Laravel/API laravel Resource",
+    description:
+      "About shortURL, is a service to create awesome friendly URLs to make it easier for people to remember. Our team developed some mock views but they lack our awesome functionality. This project I've built this as a freeLancer. The video link: https://www.loom.com/share/18b8cda65f4c49a88efea1aea88c1769",
+    image: "./shortURL.gif",
+    link: "https://github.com/edsonnaza/shortURL",
   },
 {
      title: "Contacts",
