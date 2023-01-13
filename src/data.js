@@ -19,7 +19,7 @@ export const projects = [
     title: "ShortURL",
     subtitle: "PHP/Laravel/API laravel Resource",
     description:
-      "About shortURL, is a service to create awesome friendly URLs to make it easier for people to remember. Our team developed some mock views but they lack our awesome functionality. This project I've built this as a freeLancer. The video link: https://www.loom.com/share/18b8cda65f4c49a88efea1aea88c1769",
+      "About shortURL, is a service to create awesome friendly URLs to make it easier for people to remember. Our team developed some mock views but they lack our awesome functionality. This project I've built this as a freeLancer. <br>The video link: https://www.loom.com/share/18b8cda65f4c49a88efea1aea88c1769",
     image: "./shortURL.gif",
     link: "https://github.com/edsonnaza/shortURL",
   },
