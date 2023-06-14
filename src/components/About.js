@@ -42,7 +42,6 @@ export default function About() {
             alt="hero"
             src="./coding.svg"
           />
-         
         </div>
       </div>
     </section>
