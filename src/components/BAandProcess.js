@@ -1,9 +1,9 @@
 import React from "react";
 import { BadgeCheckIcon, ChipIcon,DocumentTextIcon } from "@heroicons/react/solid";
 
-export default function Common() {
+export default function BAandProcess() {
   return (
-<section id="common">
+<section id="BAandProcess">
 
 <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">

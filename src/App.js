@@ -5,7 +5,8 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
-import Common from "./components/Common";
+import BAandProcess from "./components/BAandProcess";
+import ScrumDevProcess from "./components/ScrumDevProcess";
 
 export default function App() {
   return (
@@ -14,7 +15,8 @@ export default function App() {
       <About />
       <Projects />
       <Skills /> 
-      <Common />
+      <BAandProcess />
+      <ScrumDevProcess />
       <Testimonials />
       <Contact />
      
