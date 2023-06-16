@@ -15,7 +15,7 @@ export default function Projects() {
             Show below a small of my project's resume.
           </p>
         </div>
-        <div className="flex flex-wrap -m-12">
+        <div className="flex flex-wrap lg:w-full sm:mx-auto ">
           {projects.map((project) => (
             <a
               href={project.link}
