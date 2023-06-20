@@ -3,7 +3,7 @@ export const projects = [
     title: "Smart Reception",
     subtitle: "PHP/Laravel/VUE/Linux LAMP.",
     description:
-      "During the pandemic time, I developed a WebApp solution that allows customers to request service at the company's reception through the system. Whose main purpose was created to avoid direct contact with the secretary at the reception. With this solution, 90% of the proposed objective was achieved.",
+      "During the pandemic, I created a WebApp solution that enables customers to request services directly through the company's reception system. The primary goal of this solution was to minimize direct contact with the receptionist, prioritizing safety and social distancing measures. I am proud to share that this solution successfully achieved 90% of its intended objectives, making a significant impact in ensuring a safer and more efficient customer experience.",
     image: "./smartreception2.gif",
     link: "https://github.com/edsonnaza/recep-v2",
   },
@@ -11,7 +11,7 @@ export const projects = [
     title: "FaceTest",
     subtitle: "PHP/Laravel/VUE",
     description:
-      "Web Application to detect possible fraud when the examen online is running. The application modules can detect the face of the user in front of the screen through the webcam. When the test is done the system report the incidents with photos and descriptions. This project I've built this as a freelancer. The files in GitHub are saved in a private repository.",
+      "FaceTest is a web application I developed to enhance the security and integrity of online exams by detecting potential fraud. This application utilizes modules that can detect the user's face through the webcam while the exam is in progress. Once the test is completed, the system automatically generates incident reports, including photos and descriptions, to identify any suspicious activity. I had the opportunity to work on this project as a freelancer, ensuring its quality and effectiveness.",
     image: "./facetest.gif",
     link: "https://www.youtube.com/watch?v=tJLdJn77g5U",
   },
@@ -19,7 +19,7 @@ export const projects = [
     title: "ShortURL",
     subtitle: "PHP/Laravel/API laravel Resource",
     description:
-      "About shortURL, is a service to create awesome friendly URLs to make it easier for people to remember. Our team developed some mock views but they lack our awesome functionality. This project I've built this as a freeLancer. <br>The video link: https://www.loom.com/share/18b8cda65f4c49a88efea1aea88c1769",
+      "About shortURL, is a service to create awesome friendly URLs to make it easier for people to remember. Our team developed some mock views but they lack our awesome functionality. This project I've built this as a freeLancer.",
     image: "./shortURL.gif",
     link: "https://github.com/edsonnaza/shortURL",
   },
@@ -32,7 +32,7 @@ export const projects = [
     link: "https://github.com/edsonnaza/contacts",
   },
   {
-    title: "Infomed -Integrated Medical Record",
+    title: "Infomed - Integrated Medical Record",
     subtitle: "PHP/LARAVEL/LINUX LAMP",
     description:
       "The Infomed is a health records and medical practice management application, its features fully integrated electronic health records, practice management, scheduling, electronic billing, internationalization, patient scheduling, reports and more.",
@@ -80,6 +80,7 @@ export const skills = [
   "React",
   "Vue.js",
   "Node",
+  "Tailwind",
   "Bootstrap",
  "AdminLTE",
 "Docker",
@@ -89,3 +90,5 @@ export const skills = [
 "SOLID Principles",
 
 ];
+
+
