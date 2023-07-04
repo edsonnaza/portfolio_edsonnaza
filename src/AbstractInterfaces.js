@@ -2,46 +2,7 @@ import React from "react";
 import { BadgeCheckIcon, ChipIcon,DocumentTextIcon } from "@heroicons/react/solid";
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { tomorrow } from 'react-syntax-highlighter/dist/esm/styles/prism';
-
-const phpCode = `<?php
-interface Printable {
-    public function print();
-}
-
-abstract class Element implements Printable {
-    protected $content;
-
-    public function __construct($content) {
-        $this->content = $content;
-    }
-
-    public function print() {
-        echo $this->content;
-    }
-
-    abstract public function add();
-}
-
-class Paragraph extends Element {
-    public function add() {
-        return "<p>" . $this->content . "</p>";
-    }
-}
-
-class Titulo extends Element {
-    public function add() {
-        return "<h1>" . $this->content . "</h1>";
-    }
-}
-
-$paragrah = new Paragrah("This is an example of a paragrah.");
-$paragrahHTML = $paragrah->add();
-echo $paragrahHTML;
-
-$title = new Title("Example of a Title");
-$titleHTML = $title->add();
-echo $titleHTML;
-?>`;
+import { phpCode } from "./data";
 
 export default function AbstractInterfaces() {
   return (
@@ -58,7 +19,7 @@ export default function AbstractInterfaces() {
           Here's a definition and the main differences between abstract classes and interfaces:
           </p>
         </div>
-        <div className="flex flex-col justify-center items-center space-y-4 lg:flex-row lg:space-y-0">
+        <div className="flex space-x-8 flex-col justify-center items-center space-y-4 lg:flex-row lg:space-y-0">
           <img
             className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6"
             alt="Business analysis & Development Process"
@@ -107,11 +68,11 @@ export default function AbstractInterfaces() {
     <div>
       <h2 className="sm:text-2xl text-1xl font-medium title-font text-white mb-4">PHP Example of Abstract Class and Interface</h2>
       <div className="overflow-x-auto">
-  <div className="inline-block   whitespace-nowrap scrollbar-thumb-white-500 scrollbar-track-white-500">
-    <SyntaxHighlighter language="php" style={tomorrow}>
-      {phpCode}
-    </SyntaxHighlighter>
-  </div>
+        <div className="inline-block   whitespace-nowrap scrollbar-thumb-white-500 scrollbar-track-white-500">
+          <SyntaxHighlighter language="php" style={tomorrow}>
+            {phpCode}
+          </SyntaxHighlighter>
+        </div>
 </div>
     </div>
 
