@@ -7,6 +7,7 @@ import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
 import BAandProcess from "./components/BAandProcess";
 import ScrumDevProcess from "./components/ScrumDevProcess";
+import AbstractInterfaces from "./AbstractInterfaces";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <Skills /> 
       <BAandProcess />
       <ScrumDevProcess />
+      <AbstractInterfaces />
       <Testimonials />
       <Contact />
      
