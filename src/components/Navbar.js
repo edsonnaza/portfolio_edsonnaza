@@ -29,6 +29,9 @@ export default function Navbar() {
           <a href="#ScrumDevProcess" className="mr-5 hover:text-white">
           A Scrum-Based Approach
           </a>
+          <a href="#AbstractInterfaces" className="mr-5 hover:text-white">
+          Abstract Class Vs Interface
+          </a>
           <a href="#testimonials" className="mr-5 hover:text-white">
             Testimonials
           </a>
