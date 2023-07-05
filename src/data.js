@@ -92,3 +92,44 @@ export const skills = [
 ];
 
 
+export const phpCode = `<?php
+interface Printable {
+    public function print();
+}
+
+abstract class Element implements Printable {
+    protected $content;
+
+    public function __construct($content) {
+        $this->content = $content;
+    }
+
+    public function print() {
+        echo $this->content;
+    }
+
+    abstract public function add();
+}
+
+class Paragraph extends Element {
+    public function add() {
+        return "<p>" . $this->content . "</p>";
+    }
+}
+
+class Titulo extends Element {
+    public function add() {
+        return "<h1>" . $this->content . "</h1>";
+    }
+}
+
+$paragrah = new Paragrah("This is an example of a paragrah.");
+$paragrahHTML = $paragrah->add();
+echo $paragrahHTML;
+
+$title = new Title("Example of a Title");
+$titleHTML = $title->add();
+echo $titleHTML;
+?>`;
+
+
