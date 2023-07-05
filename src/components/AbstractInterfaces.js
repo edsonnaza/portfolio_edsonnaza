@@ -1,8 +1,11 @@
-import React from "react";
+import React from 'react';
 import { BadgeCheckIcon, ChipIcon,DocumentTextIcon } from "@heroicons/react/solid";
+import Highlight from 'react-highlight';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { tomorrow } from 'react-syntax-highlighter/dist/esm/styles/prism';
-import { phpCode } from "./data";
+import { atomDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import { phpCode } from '../data';
+  
+ 
 
 export default function AbstractInterfaces() {
   return (
@@ -68,24 +71,19 @@ export default function AbstractInterfaces() {
     <div>
       <h2 className="sm:text-2xl text-1xl font-medium title-font text-white mb-4">PHP Example of Abstract Class and Interface</h2>
       <div className="overflow-x-auto">
-        <div className="inline-block   whitespace-nowrap scrollbar-thumb-white-500 scrollbar-track-white-500">
-          <SyntaxHighlighter language="php" style={tomorrow}>
-            {phpCode}
-          </SyntaxHighlighter>
-        </div>
-</div>
-    </div>
-
-          
-          </div>
-          
-        
-        
-    </div>
+      <div className="inline-block   whitespace-nowrap scrollbar-thumb-white-500 scrollbar-track-white-500">
+    <div>
       
-       
-     
-    </section>
+      <SyntaxHighlighter language="php" style={atomDark}>
+        {phpCode}
+      </SyntaxHighlighter>
+    </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+ </section>
     
   );
 }
