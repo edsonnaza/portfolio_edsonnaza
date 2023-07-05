@@ -1,14 +1,12 @@
 {
-  "name": "EdsonSanchez",
+  "name": "edson-sanchez-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@craco/craco": "^5.9.0",
     "@heroicons/react": "^1.0.1",
-    "highlight": "^0.2.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-highlight": "^0.15.0",
     "react-scripts": "^1.1.5",
     "react-syntax-highlighter": "^15.5.0"
   },
@@ -28,5 +26,8 @@
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+  },
+  "resolutions": {
+    "highlight.js": "10.7.2 no-uglify"
   }
 }
