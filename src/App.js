@@ -7,7 +7,8 @@ import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
 import BAandProcess from "./components/BAandProcess";
 import ScrumDevProcess from "./components/ScrumDevProcess";
-import AbstractInterfaces from "./AbstractInterfaces";
+import AbstractInterfaces from "./components/AbstractInterfaces";
+ 
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
       <AbstractInterfaces />
       <Testimonials />
       <Contact />
+      
      
     </main>
   );
