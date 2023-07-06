@@ -5,6 +5,3 @@
   from = "/*"
   to = "/index.html"
   status = 200
-
-   [plugins.inputs]
-  excludes = "node_modules/highlight.js/lib/languages/abnf.js"
