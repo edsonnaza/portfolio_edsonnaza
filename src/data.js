@@ -117,7 +117,7 @@ class Paragraph extends Element {
     }
 }
 
-class Titulo extends Element {
+class Title extends Element {
     public function add() {
         return "<h1>" . $this->content . "</h1>";
     }
