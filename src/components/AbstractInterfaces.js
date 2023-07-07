@@ -76,7 +76,7 @@ const AbstractInterfaces = () => {
           <div className="rounded mb-4">
           
     <div>
-      <h2 className="sm:text-2xl text-1xl font-medium title-font text-white mb-4">PHP Example of Abstract Class and Interface</h2>
+      <h2 className="sm:text-2xl text-1xl font-medium title-font text-white mb-4">PHP Example of Abstract Class and Interface:</h2>
       <div className="overflow-x-auto">
       <div className="inline-block   whitespace-nowrap scrollbar-thumb-white-500 scrollbar-track-white-500">
     <div>
