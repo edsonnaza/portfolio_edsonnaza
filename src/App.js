@@ -8,6 +8,7 @@ import Testimonials from "./components/Testimonials";
 import BAandProcess from "./components/BAandProcess";
 import ScrumDevProcess from "./components/ScrumDevProcess";
 import AbstractInterfaces from "./components/AbstractInterfaces";
+import AccessModifiers from "./components/AccessModifiers";
  
 
 export default function App() {
@@ -19,9 +20,11 @@ export default function App() {
       <Skills /> 
       <BAandProcess />
       <ScrumDevProcess />
-      <AbstractInterfaces />
+      <AbstractInterfaces /> 
+      <AccessModifiers />
       <Testimonials />
       <Contact />
+     
       
      
     </main>

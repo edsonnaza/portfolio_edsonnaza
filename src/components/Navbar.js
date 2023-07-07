@@ -32,6 +32,9 @@ export default function Navbar() {
           <a href="#AbstractInterfaces" className="mr-5 hover:text-white">
           Abstract Class Vs Interface
           </a>
+          <a href="#AccessModifiers" className="mr-5 hover:text-white">
+          Access Modifiers
+          </a>
           <a href="#testimonials" className="mr-5 hover:text-white">
             Testimonials
           </a>
