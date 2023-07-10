@@ -1,5 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import Prism from 'prismjs';
+import 'prismjs/components/prism-php-extras';
+import 'prismjs/themes/prism.css'; //Example style, you can use another
 
 const CodeHighlight = ({ code, language }) => {
   const codeRef = useRef();

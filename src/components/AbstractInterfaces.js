@@ -1,11 +1,6 @@
 import React, { useState } from 'react';
 import { BadgeCheckIcon, ChipIcon,DocumentTextIcon } from "@heroicons/react/solid";
-import Editor from 'react-simple-code-editor';
-import { highlight, languages } from 'prismjs/components/prism-core';
-import 'prismjs/components/prism-clike';
-import 'prismjs/components/prism-javascript';
-import 'prismjs/themes/prism.css'; //Example style, you can use another
- 
+import CodeHighlight from './CodeHighlight';
 import { phpCode } from '../data';
 
 
@@ -64,7 +59,6 @@ const AbstractInterfaces = () => {
         - Interfaces are used to achieve multiple inheritance of behavior, as a class can implement multiple interfaces but can only inherit from a single class. <br />
         - Interfaces are useful for creating common behavior across unrelated classes or for defining a common API for a group of classes. <br />
          
-         
          <br />
 
         <br />
@@ -79,19 +73,11 @@ const AbstractInterfaces = () => {
       <h2 className="sm:text-2xl text-1xl font-medium title-font text-white mb-4">PHP Example of Abstract Class and Interface:</h2>
       <div className="overflow-x-auto">
       <div className="inline-block   whitespace-nowrap scrollbar-thumb-white-500 scrollbar-track-white-500">
-    <div>
-    <Editor
-  value={code}
-  onValueChange={setCode}
-  highlight={code => highlight(code, languages.js)}
-  padding={10}
-  style={{
-    fontFamily: '"Fira code", "Fira Mono", monospace',
-    fontSize: 14,
-  }}
-/>
+    
+
   
-    </div>
+            <CodeHighlight code={phpCode} language="javascript" />
+    
         </div>
       </div>
     </div>
